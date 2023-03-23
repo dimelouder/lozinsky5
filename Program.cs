@@ -22,8 +22,10 @@ namespace ConsoleApp1
             }
 
             foreach (int elem in array)
+            {
+                Console.WriteLine($"{elem}");
+            }
 
-            Console.WriteLine($"{elem}");
         }
     }
 }
